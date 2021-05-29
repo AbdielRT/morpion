@@ -1,0 +1,41 @@
+body {
+	background: #ddd;
+	color: #aaa;
+	font-family: ArialHelvetica, sans-serif;
+	margin: 0;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+
+#morpion-space {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width: 350px;
+	height: 350px;
+	/*align-content: center;*/
+	/*border: 1px black solid;*/
+	/*background: rgba(44, 0, 0, 0.2);*/
+}
+
+.casilla {
+	background: rgba(255, 255, 255, 0.2);
+	border: 2px solid #666;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 50px;
+	font-size: 15px;
+}
+
+.casilla:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.my-footer {
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+	font-size: 14px;
+}
