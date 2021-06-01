@@ -24,7 +24,7 @@ for (i = 0 ; i < casilla.length ; i++ ){
 							// check diagonals
 						compteur[0]==player[k] && compteur[4]==player[k] && compteur[8]==player[k] ||
 						compteur[6]==player[k] && compteur[4]==player[k] && compteur[2]==player[k]	
-						){ alert('Joueur ' + player[k] + ' a gagné !')
+						){ alert(`Joueur ${player[k]} a gagné !`)
 						document.location.reload(); 
 					} 
 				}
